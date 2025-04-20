@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact Screen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg p-4">
+        <div class="container navbar">
+            <img src="./images/logo.png" alt="cloud" class="me-3">
+            <a class="navbar-brand text-white icon_work" href="#"><span class="fw-bold fs-4">Weather</span><br>tagline
+                gors here</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white home rounded-pill" aria-current="page" href="./index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white rounded-pill" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white rounded-pill" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white rounded-pill " href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white rounded-pill" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="section mt-5">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 rounded-4 text-center p-2 map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.111636788718!2d-73.95728947636204!3d40.71555887139301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259609b940c95%3A0x69b5469637709743!2sApple%20Williamsburg!5e0!3m2!1sar!2seg!4v1744985766560!5m2!1sar!2seg"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <p> <i class="fa-solid fa-location-dot me-1"></i>Company Name INC.2803 Avenue Street, Los Angeles</p>
+                    <p><i class="fa-solid fa-phone"></i> +1 800 314 235</p>
+                    <p>contact@companyname.com</span></p>
+                    <!-- <i class="fa-solid fa-envelope me-2"></i>-->
+                </div>
+                <div class="col-sm-12 col-md-6 form-section">
+                    <h1>Contact us</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur inventore ducimus, facilis, numquam id soluta omnis eius recusandae nesciunt vero repellat harum cum. Nisi facilis odit hic, ipsum sed!</p>
+                    <div class=" d-flex gap-4 mb-3">
+                    <input type="text" placeholder="Your Name" class="form-control rounded-pill">
+                    <input type="email" placeholder="Email Address" class="form-control rounded-pill">
+                    </div>
+                    <div class="d-flex gap-4">
+                    <input type="text" placeholder="Company Name" class="form-control rounded-pill">
+                    <input type="text" placeholder="Website" class="form-control rounded-pill">
+                    </div>
+                    <textarea rows="3" cols="50" placeholder="Message" class="mt-3 w-100 form-control rounded-4"></textarea>
+                    <div class="d-flex justify-content-end">
+                        <button class="btn btn-primary rounded-pill mt-3">Submit</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

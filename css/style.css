@@ -1,0 +1,102 @@
+nav {
+    background-color: #1E202B;
+}
+
+.icon_work{
+    font-size: .625rem;
+}
+
+body {
+    background-color: #1E202B;
+}
+
+section {
+    background-image: url(../images/zosia-szopka-5Yt1K4B2GEc-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.umbrela img {
+    width: 1.875rem;
+}
+
+.weather_card {
+    background-color: #323544;
+    width: fit-content;
+    padding: 3.75rem;
+}
+
+.card {
+    background-color: #323544;
+}
+
+.temp{
+    font-size: 80px;
+}
+
+.over {
+    color: #4197D3;
+    font-size: .9375rem;
+}
+
+.card_2{
+    background-color: #222430;
+    height: 400px;
+}
+
+footer{
+    background-color: #262936;
+}
+
+.icons{
+    color: #429AD8;
+}
+
+.icons i{
+    font-size: 1.25rem;
+    background-color: #1E202B;
+}
+
+.find_btn{
+    top: 1px;
+    right: 1px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.find_btn p{
+    background-color: #429AD8;
+}
+
+.navbar a:hover , a:focus {
+    color:#4197D3 !important;
+    border: 2px solid #4197D3 !important;
+}
+
+.form-section input{
+    background-color: #1E202B;
+}
+.form-section input:focus{
+    background-color: #1E202B;
+    color: white;
+}
+
+.form-section textarea{
+    background-color: #1E202B;
+}
+.form-section textarea:focus{
+    background-color: #1E202B;
+    color: white;
+}
+.form-section textarea::placeholder{
+    color: white;
+}
+
+.form-section input::placeholder{
+    color: white;
+}
+
+.map {
+    background-color: #262936;
+}
