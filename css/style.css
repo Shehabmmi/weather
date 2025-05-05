@@ -100,3 +100,10 @@ footer{
 .map {
     background-color: #262936;
 }
+
+.sub-btn,
+.sub-btn:hover
+{
+    background-color: #429AD8;
+    color: white;
+}
